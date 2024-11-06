@@ -5,8 +5,10 @@ body {
 h1 {
     background-color: rgb(158, 42, 13);
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 3px 2px black;
     border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
 }
 
 fieldset {
