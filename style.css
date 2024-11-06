@@ -4,4 +4,12 @@ body {
 
 h1 {
     background-color: rgb(158, 42, 13);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px black;
+    border-radius: 3px;
+}
+
+fieldset {
+    background-color: rgb(252, 252, 39);
+    border-radius: 10px;
 }
