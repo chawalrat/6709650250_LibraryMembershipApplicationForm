@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEMBERSHIPlibrary</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h>LIBRARY MEMBERSHIP</h>
+    <h1>LIBRARY MEMBERSHIP</h1>
     <form>
         <fieldset>
-            <label for = "name"> ชื่อ-นามสกุล :</label>
-            <input type = "text" id = "name" name = "name"> <br><br>
+            <label for = "name">*ชื่อ-นามสกุล :</label>
+            <input type = "text" id = "name" name = "name"
+            placeholder="ชื่อและนามสกุล"> <br><br>
 
-            <label for = "name"> Name :</label>
-            <input type = "text" id = "name" name = "name"> <br><br>
+            <label for = "name">* Name :</label>
+            <input type = "text" id = "name" name = "name"
+            placeholder="Name"> <br><br>
 
-            <label for = "gender">Gender :</label><br>
+            <label for = "gender">*Gender :</label><br>
             <input type = "radio" name = "Gender" value = "male"
             <label for = "male"> Male </label> <br> 
             <input type = "radio" name = "Gender" value = "female"
             <label for = "female"> Female </label> <br> <br>
 
-            <label for = "code number"> Student ID :</label>
-            <input type = "password"  name = "Student ID"> <br><br>
+            <label for = "Student ID"> *Student ID :</label>
+            <input type = "password"  name = "Student ID"
+            placeholder="Student ID"> <br><br>
 
-            <label for = "gender">Faculty :</label><br>
+            <label for = "gender">*Faculty :</label><br>
             <select name = "faculties">
                 <option value = "Faculty of Law">Faculty of Law</option>
                 <option value = "Thammasat Business School">Thammasat Business School</option>
@@ -44,10 +48,28 @@
                 <option value = "Faculty of Public Health">Faculty of Public Health</option>
             </select> <br> <br>
 
-            <label for = "email">Email</label>
-            
+            <label for = "email">*Email address</label>
+            <input type = "email" id = "email" name = "email"
+            placeholder="Email"> <br><br>
+
+            <label for = "name">* Phone :</label>
+            <input type = "text" id = "phone" name = "phone"
+            placeholder="09685****"> <br><br>
+
+            <label for = "birthday">*Birthday :</label>
+            <input type = "date" id="birthday" name="birthday"> <br><br>
+
+            <label for = "book">Genre of book :</label>
+            <input type = "text" id = "book" name = "book"
+            placeholder="Novel , comic , etc."> <br><br>
+
+            <label for = "news">Do you want to recieve library news via email?</label> <br>
+            <input type = "checkbox" name = "yes" value = "yes" /> yes
+            <input type = "checkbox" name = "no" value = "no" /> No
+
     
-        </fieldset>
+        </fieldset> <br>
+        <input type = "submit" value = "Submit"/>
     </form>
 </body>
 </html>
